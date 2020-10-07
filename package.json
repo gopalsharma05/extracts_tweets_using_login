@@ -1,0 +1,28 @@
+{
+  "name": "tweets_extracts",
+  "version": "1.0.0",
+  "description": "Code for the entire scotch.io tutorial series: Complete Guide to Node Authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.8",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
